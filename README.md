@@ -3,11 +3,10 @@
 
 # TASK 2 – Unemployment Analysis with Python
 
-```markdown
+```
 # Unemployment Analysis with Python
 
 ## Objective
-
 The objective of this project is to analyze unemployment trends and patterns using Python and data visualization techniques.
 
 The analysis helps understand unemployment rates across different regions and over time.
@@ -15,14 +14,15 @@ The analysis helps understand unemployment rates across different regions and ov
 ---
 
 ## Dataset
-
-Dataset contains:
+The dataset contains:
 
 - Date
 - Region
 - Estimated Unemployment Rate (%)
 - Labour Participation Rate
 - Employment Estimates
+
+Dataset used: Unemployment Analysis Dataset
 
 ---
 
@@ -39,38 +39,34 @@ Dataset contains:
 
 ## Steps Performed
 
-### 1. Data Collection
-- Loaded unemployment dataset.
+### 1. Data Loading
+- Loaded the unemployment dataset using Pandas.
 
 ### 2. Data Cleaning
 - Checked dataset information.
-- Identified and removed missing values.
-- Converted date column into datetime format.
+- Handled missing values.
+- Converted date columns into datetime format.
 
 ### 3. Exploratory Data Analysis
-- Generated statistical summary.
-- Examined unemployment rates across states.
+- Generated descriptive statistics.
+- Analyzed unemployment rates across different regions.
 
 ### 4. Data Visualization
-
-Created visualizations including:
-
-- Unemployment Rate by State (Bar Chart)
-- Monthly Unemployment Trend (Line Plot)
-- Correlation Matrix (Heatmap)
-- Regional Unemployment Comparison (Box Plot)
+- Created bar charts for state-wise unemployment rates.
+- Generated line plots to observe trends over time.
+- Used heatmaps for correlation analysis.
 
 ### 5. Insights Extraction
-- Identified regions with highest unemployment.
-- Observed trends across time periods.
+- Identified regions with high unemployment rates.
+- Examined unemployment trends during different periods.
 
 ---
 
 ## Outcome
 
-- Successfully analyzed unemployment patterns.
-- Visualized state-wise and time-wise unemployment trends.
-- Identified regions with comparatively higher unemployment rates.
+- Successfully analyzed unemployment patterns and trends.
+- Generated visual insights using Python visualization libraries.
+- Identified key factors and regions associated with unemployment variations.
 
 ---
 
@@ -81,3 +77,4 @@ pandas
 numpy
 matplotlib
 seaborn
+```
